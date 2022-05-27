@@ -4,10 +4,12 @@ import { Header } from '../../components';
 
 
 const Home = () => {
-    var heading = "welcome... welcome, all"
     return (
         <div>
-            <Header heading={heading}/>
+            <Header />
+            <div>
+                <h1>Welcome... welcome, all muahaha</h1>
+            </div>
         </div>
     )
 }

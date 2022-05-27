@@ -1,11 +1,18 @@
-const Header = ({heading, logo}) => {
+const Header = ({menu, logo}) => {
     return (
         <div className="header">
             <div className="logo">
                 <img src={logo} alt="logo image" />
             </div>
-            <div className="heading">
-            <h1>{heading}</h1>
+            <div className="menu">
+                <ul>
+                    <li>
+                        <p>oh hey there</p>
+                    </li>
+                    <li>
+                        <p>im another p tag hihi</p>
+                    </li>
+                </ul>
             </div>
         </div>
     )
